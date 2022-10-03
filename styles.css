@@ -1,0 +1,131 @@
+
+html {
+    box-sizing: border-box;
+    
+} 
+
+body {
+    background-color: hsl(27, 66%, 92%);
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: min(90%, 300px);
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 5em;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.smalltext {
+    font-size: 9px;
+    color: hsl(28, 10%, 53%);
+   }
+
+.firstbox {
+    min-height: 3em;  
+    max-height: 3em;  
+    position: relative;
+    border-radius: 10px;
+    
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(27, 66%, 92%);
+    padding: .8em;  
+    display: flex; 
+    align-items: center;
+    line-height: 1.2em;   
+       
+}
+
+
+.secondbox {
+    margin-top: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: hsl(33, 100%, 98%)
+}
+
+.days {
+    border-radius: 4px;
+    background-color: hsl(10, 79%, 65%);   
+    margin-bottom: .25em; 
+     
+    }
+
+.days:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.absolutepose {
+    position: absolute;
+    top: 1.4em;
+    right: 1em;
+    
+}
+
+.dayswrapper {
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.daywrapper {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+   
+        
+   }
+
+.figureofday {
+    visibility: hidden; 
+    align-self: center;
+    width: 120%;    
+    line-height: 1.5em;
+    text-align: center; 
+    font-size: .6em;
+    font-weight: 700;
+    color: hsl(27, 66%, 92%);
+    background-color: hsl(25, 47%, 15%);
+    border-radius: 4px;
+    padding: .3em;
+    margin-bottom: .25em;
+    margin-top: auto;
+}
+
+.daywrapper:hover .figureofday {
+
+    visibility: visible;
+}
+
+.bottompartofsecondbox {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dayname {
+    text-align: center;
+}
+
+.today {
+
+    background-color: hsl(186, 34%, 60%);
+}
+
+.today:hover {
+
+    opacity: 70%;
+}
